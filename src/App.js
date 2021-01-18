@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { AppBar, Carousel, Sale, File, NewsLetter,Footer } from "./Components";
+import "bootstrap-css-only/css/bootstrap.min.css";
+import "mdbreact/dist/css/mdb.css";
+import "rsuite/dist/styles/rsuite-default.css";
+import "antd/dist/antd.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppBar />
+      <hr />
+      <Carousel />
+      <hr />
+      <Sale />
+      <hr />
+      <File />
+      <hr />
+      <NewsLetter />
+      <hr />
+      <Footer />
     </div>
   );
 }

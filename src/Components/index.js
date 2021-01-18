@@ -1,0 +1,6 @@
+export {default as AppBar} from "./Appbar"
+export {default as Carousel} from "./Carousel"
+export {default as Sale} from "./Sale"
+export {default as File} from "./Files"
+export {default as Footer} from "./Footer"
+export {default as NewsLetter} from "./NewsLetter"
